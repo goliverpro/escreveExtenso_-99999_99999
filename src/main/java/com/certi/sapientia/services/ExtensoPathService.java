@@ -33,9 +33,7 @@ public class ExtensoPathService {
             }
             return operador + milhar(valor);
         }else
-            return "Digite um valor entre -99999 e 99999";
-
-
+            throw new IllegalArgumentException("Digite um valor entre -99999 e 99999");
     }
 
     private String milhar(Integer valor){
