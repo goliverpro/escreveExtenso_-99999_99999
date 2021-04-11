@@ -13,10 +13,12 @@ class SapientiaApplicationTests {
 
 	@Test
 	void testeDeFalha() {
+		
 		service.retornaValorExtenso(10000000);
 	}
 	@Test
 	void testeDeSucesso(){
+
 		service.retornaValorExtenso(100);
 	}
 
